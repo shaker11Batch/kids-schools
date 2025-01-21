@@ -14,7 +14,9 @@ body {
     }
 }
 
-
+header{
+    visibility: hidden;
+}
 
 
 
@@ -41,7 +43,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 2rem auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .nav-logo {
@@ -72,6 +74,7 @@ ul>li>a {
     /* border: 1px solid red; */
     margin: 2rem auto;
     align-items: center;
+    justify-content: space-between;
 }
 
 .text-title {
@@ -87,6 +90,84 @@ ul>li>a {
 .btn-enroll{
     color: #FFFFFF;
     background-color:  black;
-    padding: 1.20rem 3rem;
-    border-radius: 5px;
+    padding: 0.75rem 3rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.20rem;
 }
+.banner-img{
+    width: 100%;
+}
+
+
+/* Standard Curriculum */
+.container-heading{
+    font-size:3rem;
+    text-align: center ;
+    /* margin: 2rem 0rem; */
+  
+    
+}
+.main-container{
+    max-width: 1160px;
+    margin-bottom: 30px;
+    margin: 8rem auto;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 1.75rem;
+    
+}
+.card-container{
+    max-width: 367px;
+    height: 400px;
+    padding: 65px 20px;
+    border-radius: 10px;
+    box-shadow:  10px 10px 5px rgb(228, 228, 237);
+    background: linear-gradient(to bottom,#d5e8f0,#FFFFFF);
+    block-size: cover;
+    
+}
+.card-container-2{
+    max-width: 367px;
+    height: 400px;
+    padding: 65px 20px;
+    border-radius: 10px;
+    box-shadow:  10px 10px 5px rgb(228, 228, 237);
+    background: linear-gradient(to bottom,#FFF4DC,#FFFFFF);
+    block-size: cover;
+    
+}
+.card-container-3{
+    max-width: 367px;
+    height: 400px;
+    padding: 65px 20px;
+    border-radius: 10px;
+    box-shadow:  10px 10px 5px rgb(228, 228, 237);
+    background: linear-gradient(to bottom,#F2E8FF,#FFFFFF);
+    block-size: cover;
+    
+}
+.card-heading{
+    margin: 1rem 0rem;
+}
+.card-details{
+    margin: 0.75rem;
+}
+
+
+
+
+/* Responsive  media querry */
+@media screen and (max-width:570px) {
+    .banner-container{
+        flex-direction: column-reverse;
+        margin: 20px 10px;
+        text-align: center;
+    }
+    .text-title {
+       font-size: 1.50rem;  
+    }
+  
+}
+
