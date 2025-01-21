@@ -1,53 +1,64 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-body{
-   
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-
-
-.quicksand {
-  font-family: "Quicksand", serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
+body {
+    .quicksand {
+        font-family: "Quicksand", serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+    }
 }
 
+
+
+
+
+
 /* shared styles  */
-.display-flex{
+.display-flex {
     display: flex;
 }
 
+.primary-yellow {
+    color: #FEA301;
+}
+.primary-blue{
+    color: #01ACFD;
+}
 
 
 
 
 
 /* nav styles  */
-.nav-container{
+.nav-container {
     max-width: 1160px;
-    justify-content:space-between ; 
+    justify-content: space-between;
     align-items: center;
     margin: 2rem auto;
     border: 1px solid red;
 }
-.nav-logo{
+
+.nav-logo {
     align-items: center;
     gap: 1.5rem;
 }
-ul > li {
+
+ul>li {
     list-style: none;
     margin-left: 32px;
 }
 
-ul > li >a {
+ul>li>a {
     text-decoration: none;
 }
-.btn-contact{
+
+.btn-contact {
     padding: 0.60rem 3.75rem;
     background: #FEA301;
     border: none;
@@ -56,3 +67,26 @@ ul > li >a {
 
 
 /* banner styles  */
+.banner-container {
+    max-width: 1158px;
+    /* border: 1px solid red; */
+    margin: 2rem auto;
+    align-items: center;
+}
+
+.text-title {
+    max-width: 640px;
+    font-size: 3.50rem;
+    font-weight: 700;
+}
+.text-description{
+    margin: 24px  0px;
+    max-width: 620px;
+    font-size: 1.25rem;
+}
+.btn-enroll{
+    color: #FFFFFF;
+    background-color:  black;
+    padding: 1.20rem 3rem;
+    border-radius: 5px;
+}
