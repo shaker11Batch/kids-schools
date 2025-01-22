@@ -10,7 +10,7 @@
 main {
     background-image: url("/assets/bg.png");
     background-size: cover;
-   
+
 }
 
 
@@ -75,7 +75,7 @@ ul>li>a {
 
 /* banner styles  */
 .banner-container {
-    
+
     max-width: 1158px;
     /* border: 1px solid red; */
     margin: 2rem auto;
@@ -195,7 +195,7 @@ ul>li>a {
 
 .stories-container {
     margin: 3rem;
-    display: none;
+
 }
 
 .stories-heading {
@@ -228,9 +228,10 @@ ul>li>a {
 
 }
 
-footer{
+footer {
     display: none;
 }
+
 .grid-card-container {
     max-width: 290px;
     height: 301px;
@@ -299,7 +300,7 @@ footer{
     margin: 33px 33px 37px 54px;
 }
 
-.stories-details {}
+
 
 .see-btn {
     margin: 50px auto;
@@ -315,20 +316,19 @@ footer{
 }
 
 /* footer  */
-footer{
+footer {
     background-color: #01ACFD;
     height: 400px;
-   
+
 }
-.footer-container{
-   
- 
-}
+
+.footer-container {}
+
 .footer-content {
     padding-top: 100px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    
+
 }
 
 .kids-educations {
@@ -336,19 +336,24 @@ footer{
     gap: 10px;
     margin-bottom: 2.25rem;
 }
-.school-about{
+
+.school-about {
     margin-bottom: 2.25rem;
 }
-.school-p > p {
+
+.school-p>p {
     margin: 1rem 0rem;
 }
+
 .touch {
     margin-bottom: 2rem 0rem;
 }
-.logo-touch img{
+
+.logo-touch img {
     margin: 32px 0px;
     gap: 10px;
 }
+
 .footer-details {
     margin: 2.25rem 1rem;
 }
@@ -377,34 +382,116 @@ footer{
         /* margin: 2rem 0rem; */
     }
 
-.card-container{
-    margin: 20px;
-    width: 300px;
-    height: 350px;
-}
-.card-container-2{
-    margin: 20px;
-    width: 300px;
-    height: 350px;
-}
-.card-container-3{
-    margin: 20px;
-    width: 300px;
-    height: 350px;
-}
+    .curriculum {
+        margin: 60px 0px;
+    }
 
-   
-.icon-btn > button{
-padding: 0.75rem;
-}
+    .card-container {
+        margin: 20px;
+        width: 300px;
+        height: 350px;
+    }
+
+    .card-container-2 {
+        margin: 20px;
+        width: 300px;
+        height: 350px;
+    }
+
+    .card-container-3 {
+        margin: 20px;
+        width: 300px;
+        height: 350px;
+    }
+
+
+    .icon-btn>button {
+        padding: 0.75rem;
+    }
+
     .main-container {
         flex-direction: column;
         padding: 0;
         margin: 0;
     }
 
+    .stories-card-container {
+        display: none;
+
+    }
+
     .stories-card-main-container {
         flex-direction: column;
     }
+
+
+
+
+
+
+    .grid-card-container {
+        max-width: 290px;
+        height: 301px;
+
+        border-radius: 10px;
+        position: relative;
+        box-shadow: 10px 10px 10px 10px #e7e7e7;
+    }
+
+    .stories-card-2>button {
+      
+        position: absolute;
+        height: 38px;
+        width: 100px;
+        background-color: #5D58F0;
+        border-radius: 10%;
+        border: none;
+        color: #d5e8f0;
+        top: 30%;
+        left: 40px;
+    }
+
+
+    .stories-card>button {
+        /* display: none; */
+        height: 40px;
+        width: 100px;
+        border-radius: 10%;
+        background-color: #3CD8E8;
+        color: #FFFFFF;
+        border: none;
+        position: absolute;
+        top: 30%;
+        left: 40px;
+    }
+
+    .grid-card-container {
+        max-width: 300px;
+        height: 300px;
+        margin-bottom: 20px;
+
+
+        border-radius: 10px;
+        /* position: relative; */
+        box-shadow: 10px 10px 10px 10px #e7e7e7;
+    }
+
+    .stories-text {
+        margin: 33px 0px;
+        font-size: 20px;
+        font-weight: 400;
+        padding: 1rem;
+    }
+
+
+    .stories-container {
+        margin: 0.25rem;
+
+
+    }
+
+
+
+
 
 }
