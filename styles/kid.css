@@ -14,10 +14,10 @@ body {
       
     }
 }
-/* body{
+body{
     background-image: url("/assets/bg.png");
-    background: linear-gradient(to bottom,#FFF4DC,#FFFFFF);
-} */
+    /* background: linear-gradient(to bottom,#FFF4DC,#FFFFFF); */
+}
 
 /* header{
     visibility: hidden;
@@ -185,6 +185,7 @@ ul>li>a {
 /* Our Stories */
 .stories-card-main-container {
     justify-content: space-between;
+   
 }
 
 .stories-container{
@@ -204,9 +205,12 @@ ul>li>a {
    border: 1px solid red;
    background-color: #FFF4DC;
    border-radius: 10px;
+   position: relative;
 }
 .stories-card-container img{
     width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .stories-grid{
     display: grid;
@@ -218,11 +222,14 @@ ul>li>a {
     height: 301px;
     /* grid-gap: 20px; */
     margin-left: 20px;
-    
-    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+   box-shadow: 10px 10px 10px 10px #d5e8f0;
 }
 .grid-card-container img{
     width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .stories-btn{
     width: 147px;
@@ -235,12 +242,51 @@ ul>li>a {
 height: 50px;
 width: 147px;
 border-radius: 10%;
+background-color: #3CD8E8;
+color: #FFFFFF;
+border: none;
+position: absolute;
+top: 42%;
+left: 70px;
+}
+.stories-card > button{
+    position: absolute;
+    height:38px ;
+    width:174px ;
+    background-color: #95B226;
+    border-radius: 10%;
+    border: none;
+    top: 55%;
+    color: #F2E8FF;
+    left: 70px;
+}
+.stories-card-2 > button{
+    position: absolute;
+    height:38px ;
+    width:174px ;
+    background-color: #5D58F0;
+    border-radius: 10%;
+    border: none;
+    color: #d5e8f0;
+    top: 55%;
+    left: 70px;
 }
 .stories-text{
-margin: 50px 0px;
+margin: 33px 33px 37px 54px;
 }
 .stories-details{
 
+}
+.see-btn{
+    margin: 50px auto;
+    text-align: center;
+    
+}
+.see-btn > button{
+    padding: 20px 60px;
+    background-color: black;
+    color: #d5e8f0;
+    border-radius: 40%;
 }
 
 
@@ -276,6 +322,10 @@ margin: 50px 0px;
         flex-direction: column;
         padding: 0;
         margin: 0;
+    }
+
+    .stories-card-main-container {
+        flex-direction: column;
     }
   
 }
