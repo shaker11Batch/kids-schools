@@ -9,13 +9,11 @@
 
 main {
     background-image: url("/assets/bg.png");
-    background: linear-gradient(to bottom, #FFFFFF, #FFF4DC);
     background-size: cover;
+   
 }
 
-/* header{
-    visibility: hidden;
-} */
+
 
 
 
@@ -23,7 +21,7 @@ main {
 /* shared styles  */
 section {
     max-width: 1160px;
-    margin: 5rem auto;
+    margin: 0rem auto;
 
 }
 
@@ -45,6 +43,7 @@ section {
 
 /* nav styles  */
 .nav-container {
+    display: none;
     max-width: 1160px;
     justify-content: space-between;
     align-items: center;
@@ -76,6 +75,7 @@ ul>li>a {
 
 /* banner styles  */
 .banner-container {
+    
     max-width: 1158px;
     /* border: 1px solid red; */
     margin: 2rem auto;
@@ -107,6 +107,7 @@ ul>li>a {
 .banner-img {
     width: 100%;
 }
+
 
 
 /* Standard Curriculum */
@@ -194,6 +195,7 @@ ul>li>a {
 
 .stories-container {
     margin: 3rem;
+    display: none;
 }
 
 .stories-heading {
@@ -226,6 +228,9 @@ ul>li>a {
 
 }
 
+footer{
+    display: none;
+}
 .grid-card-container {
     max-width: 290px;
     height: 301px;
@@ -233,7 +238,7 @@ ul>li>a {
     margin-left: 20px;
     border-radius: 10px;
     position: relative;
-    box-shadow: 10px 10px 10px 10px #FFFFFF;
+    box-shadow: 10px 10px 10px 10px #e7e7e7;
 }
 
 .grid-card-container img {
@@ -310,12 +315,20 @@ ul>li>a {
 }
 
 /* footer  */
-
+footer{
+    background-color: #01ACFD;
+    height: 400px;
+   
+}
+.footer-container{
+   
+ 
+}
 .footer-content {
-    
+    padding-top: 100px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    border: 1px solid red;
+    
 }
 
 .kids-educations {
@@ -340,7 +353,13 @@ ul>li>a {
     margin: 2.25rem 1rem;
 }
 
+
+
+
+
 /* Responsive  media querry */
+
+
 @media screen and (max-width:570px) {
     .banner-container {
         flex-direction: column-reverse;
@@ -358,20 +377,26 @@ ul>li>a {
         /* margin: 2rem 0rem; */
     }
 
-    .card-container-3 {
-        width: 367px;
-        height: 400px;
-        padding: 20px 20px;
-        border-radius: 10px;
-        box-shadow: 10px 10px 5px rgb(228, 228, 237);
-        background: linear-gradient(to bottom, #F2E8FF, #FFFFFF);
-        block-size: cover;
-        margin: 20px 20px;
+.card-container{
+    margin: 20px;
+    width: 300px;
+    height: 350px;
+}
+.card-container-2{
+    margin: 20px;
+    width: 300px;
+    height: 350px;
+}
+.card-container-3{
+    margin: 20px;
+    width: 300px;
+    height: 350px;
+}
 
-
-
-    }
-
+   
+.icon-btn > button{
+padding: 0.75rem;
+}
     .main-container {
         flex-direction: column;
         padding: 0;
