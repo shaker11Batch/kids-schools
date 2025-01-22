@@ -5,18 +5,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-body {
-    .quicksand {
-        font-family: "Quicksand", serif;
-        font-optical-sizing: auto;
-        font-weight: 900;
-        font-style: normal;
-      
-    }
-}
-body{
+
+
+main {
     background-image: url("/assets/bg.png");
-    /* background: linear-gradient(to bottom,#FFF4DC,#FFFFFF); */
+    background: linear-gradient(to bottom, #FFFFFF, #FFF4DC);
+    background-size: cover;
 }
 
 /* header{
@@ -27,11 +21,12 @@ body{
 
 
 /* shared styles  */
-main{
+section {
     max-width: 1160px;
     margin: 5rem auto;
-   
+
 }
+
 .display-flex {
     display: flex;
 }
@@ -39,7 +34,8 @@ main{
 .primary-yellow {
     color: #FEA301;
 }
-.primary-blue{
+
+.primary-blue {
     color: #01ACFD;
 }
 
@@ -92,33 +88,37 @@ ul>li>a {
     font-size: 3.50rem;
     font-weight: 700;
 }
-.text-description{
-    margin: 24px  0px;
+
+.text-description {
+    margin: 24px 0px;
     max-width: 620px;
     font-size: 1.25rem;
 }
-.btn-enroll{
+
+.btn-enroll {
     color: #FFFFFF;
-    background-color:  black;
+    background-color: black;
     padding: 0.75rem 3rem;
     border-radius: 10px;
     border: none;
     font-size: 1.20rem;
 }
-.banner-img{
+
+.banner-img {
     width: 100%;
 }
 
 
 /* Standard Curriculum */
-.container-heading{
-    font-size:3rem;
-    text-align: center ;
+.container-heading {
+    font-size: 3rem;
+    text-align: center;
     /* margin: 2rem 0rem; */
-  
-    
+
+
 }
-.main-container{
+
+.main-container {
     max-width: 1160px;
     margin-bottom: 30px;
     margin: 8rem auto;
@@ -127,53 +127,57 @@ ul>li>a {
     text-align: center;
     gap: 1.75rem;
 
-    
-}
-.card-container{
-    max-width: 367px;
-    height: 400px;
-    padding: 65px 20px;
-    border-radius: 10px;
-    box-shadow:  10px 10px 5px rgb(228, 228, 237);
-    background: linear-gradient(to bottom,#d5e8f0,#FFFFFF);
-    block-size: cover;
-    
-}
-.card-container-2{
-    max-width: 367px;
-    height: 400px;
-    padding: 65px 20px;
-    border-radius: 10px;
-    box-shadow:  10px 10px 5px rgb(228, 228, 237);
-    background: linear-gradient(to bottom,#FFF4DC,#FFFFFF);
-    block-size: cover;
-    
-}
-.card-container-3{
-    max-width: 367px;
-    height: 400px;
-    padding: 65px 20px;
-    border-radius: 10px;
-    box-shadow:  10px 10px 5px rgb(228, 228, 237);
-    background: linear-gradient(to bottom,#F2E8FF,#FFFFFF);
-    /* /* block-size: cover; */
-    } 
 
- 
-.card-heading{
+}
+
+.card-container {
+    max-width: 367px;
+    height: 400px;
+    padding: 65px 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(228, 228, 237);
+    background: linear-gradient(to bottom, #d5e8f0, #FFFFFF);
+    block-size: cover;
+
+}
+
+.card-container-2 {
+    max-width: 367px;
+    height: 400px;
+    padding: 65px 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(228, 228, 237);
+    background: linear-gradient(to bottom, #FFF4DC, #FFFFFF);
+    block-size: cover;
+
+}
+
+.card-container-3 {
+    max-width: 367px;
+    height: 400px;
+    padding: 65px 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(228, 228, 237);
+    background: linear-gradient(to bottom, #F2E8FF, #FFFFFF);
+    /* /* block-size: cover; */
+}
+
+
+.card-heading {
     margin: 1rem 0rem;
 }
-.card-details{
+
+.card-details {
     margin: 0.75rem;
 }
 
-.icon-btn{
+.icon-btn {
     max-width: 1160px;
     margin: 0 auto;
     text-align: center;
 }
 
-.icon-btn > button{
+.icon-btn>button {
     background-color: #FEA301;
     padding: 1.5rem;
     border-radius: 50%;
@@ -185,13 +189,14 @@ ul>li>a {
 /* Our Stories */
 .stories-card-main-container {
     justify-content: space-between;
-   
+
 }
 
-.stories-container{
+.stories-container {
     margin: 3rem;
 }
-.stories-heading{
+
+.stories-heading {
     font-size: 3.25rem;
     text-align: center;
     font-weight: 700;
@@ -199,60 +204,72 @@ ul>li>a {
     background-color: #FFFFFF;
 }
 
-.stories-card-container{
+.stories-card-container {
     max-width: 450px;
     height: 630px;
-   border: 1px solid red;
-   background-color: #FFF4DC;
-   border-radius: 10px;
-   position: relative;
+
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 10px 10px 10px 10px #e7e7e7;
+    background-color: #FFFFFF;
 }
-.stories-card-container img{
+
+.stories-card-container img {
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.stories-grid{
+
+.stories-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    
+
 }
-.grid-card-container{
+
+.grid-card-container {
     max-width: 290px;
     height: 301px;
     /* grid-gap: 20px; */
     margin-left: 20px;
     border-radius: 10px;
     position: relative;
-   box-shadow: 10px 10px 10px 10px #d5e8f0;
+    box-shadow: 10px 10px 10px 10px #FFFFFF;
 }
-.grid-card-container img{
+
+.grid-card-container img {
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.stories-btn{
+
+.stories-btn {
     width: 147px;
     height: 47px;
     background-color: #3CD8E8;
     border-radius: 30%;
-   
+
 }
-.stories-card-text > button{
-height: 50px;
-width: 147px;
-border-radius: 10%;
-background-color: #3CD8E8;
-color: #FFFFFF;
-border: none;
-position: absolute;
-top: 42%;
-left: 70px;
+
+.stories-card-text {
+    padding: 2.25rem;
 }
-.stories-card > button{
+
+.stories-card-text>button {
+    height: 50px;
+    width: 147px;
+    border-radius: 10%;
+    background-color: #3CD8E8;
+    color: #FFFFFF;
+    border: none;
     position: absolute;
-    height:38px ;
-    width:174px ;
+    top: 42%;
+    left: 70px;
+}
+
+.stories-card>button {
+    position: absolute;
+    height: 38px;
+    width: 174px;
     background-color: #95B226;
     border-radius: 10%;
     border: none;
@@ -260,10 +277,11 @@ left: 70px;
     color: #F2E8FF;
     left: 70px;
 }
-.stories-card-2 > button{
+
+.stories-card-2>button {
     position: absolute;
-    height:38px ;
-    width:174px ;
+    height: 38px;
+    width: 174px;
     background-color: #5D58F0;
     border-radius: 10%;
     border: none;
@@ -271,54 +289,90 @@ left: 70px;
     top: 55%;
     left: 70px;
 }
-.stories-text{
-margin: 33px 33px 37px 54px;
-}
-.stories-details{
 
+.stories-text {
+    margin: 33px 33px 37px 54px;
 }
-.see-btn{
+
+.stories-details {}
+
+.see-btn {
     margin: 50px auto;
     text-align: center;
-    
+
 }
-.see-btn > button{
+
+.see-btn>button {
     padding: 20px 60px;
     background-color: black;
     color: #d5e8f0;
     border-radius: 40%;
 }
 
+/* footer  */
+
+.footer-content {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid red;
+}
+
+.kids-educations {
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 2.25rem;
+}
+.school-about{
+    margin-bottom: 2.25rem;
+}
+.school-p > p {
+    margin: 1rem 0rem;
+}
+.touch {
+    margin-bottom: 2rem 0rem;
+}
+.logo-touch img{
+    margin: 32px 0px;
+    gap: 10px;
+}
+.footer-details {
+    margin: 2.25rem 1rem;
+}
 
 /* Responsive  media querry */
 @media screen and (max-width:570px) {
-    .banner-container{
+    .banner-container {
         flex-direction: column-reverse;
         margin: 20px 10px;
         text-align: center;
     }
+
     .text-title {
-       font-size: 1.50rem;  
+        font-size: 1.50rem;
     }
-    .container-heading{
-        font-size:2rem;
-        text-align: center ;
+
+    .container-heading {
+        font-size: 2rem;
+        text-align: center;
         /* margin: 2rem 0rem; */
-    }  
-        .card-container-3{
-            width: 367px;
-            height: 400px;
-            padding: 20px 20px;
-            border-radius: 10px;
-            box-shadow:  10px 10px 5px rgb(228, 228, 237);
-            background: linear-gradient(to bottom,#F2E8FF,#FFFFFF); 
-             block-size: cover;
-             margin: 20px 20px;
-            
-     
-        
     }
-    .main-container{
+
+    .card-container-3 {
+        width: 367px;
+        height: 400px;
+        padding: 20px 20px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px rgb(228, 228, 237);
+        background: linear-gradient(to bottom, #F2E8FF, #FFFFFF);
+        block-size: cover;
+        margin: 20px 20px;
+
+
+
+    }
+
+    .main-container {
         flex-direction: column;
         padding: 0;
         margin: 0;
@@ -327,6 +381,5 @@ margin: 33px 33px 37px 54px;
     .stories-card-main-container {
         flex-direction: column;
     }
-  
-}
 
+}
