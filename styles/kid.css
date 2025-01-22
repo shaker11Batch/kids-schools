@@ -15,7 +15,9 @@ main {
 
 
 
-
+ body button:hover{
+    background-color: #7f6c43;
+}
 
 
 /* shared styles  */
@@ -120,6 +122,18 @@ ul>li>a {
     /* margin: 2rem 0rem; */
 
 
+}
+a {
+    text-decoration: none;
+}
+.a-1{
+    color: #3CD8E8;
+}
+.a-2 {
+    color: #FEA301;
+}
+.a-3 {
+   color: #95B226;
 }
 
 .main-container {
@@ -382,8 +396,12 @@ footer {
     font-size: 40px;
 }
 .nav-logo{
-    gap: 300px;
+   justify-content: space-between;
+   align-items: center;
+   gap: 250px;
+   margin: 0 auto;
 }
+
 
     .banner-container {
         flex-direction: column-reverse;
